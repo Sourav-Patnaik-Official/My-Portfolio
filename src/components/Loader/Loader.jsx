@@ -37,7 +37,7 @@ const Loader = () => {
           <div className="col">
             <div
               className="loader"
-              data-aos="zoon-in"
+              data-aos="zoom-in"
               data-aos-duration="2000"
             ></div>
           </div>
