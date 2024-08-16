@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h6 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h5 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.img-col {
+  background-color: #68e0cf;
+  object-fit: cover;
+}
+.img-col .img-1 {
+  filter: grayscale(100%);
+  mix-blend-mode: luminosity;
+  width: 100% !important;
+  height: 700px !important;
+  /* object-fit: cover; */
+}
+
+.text_col{
+  top: -500px;
+}
+.intro h1 {
+  animation: para 1s infinite alternate;
+}
+
+@keyframes para {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+      0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.intro {
+  background-image: url("../../images/stars.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  animation: slideIn 10s linear infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}

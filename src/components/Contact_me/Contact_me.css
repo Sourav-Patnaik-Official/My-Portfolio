@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Grey+Qo&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.contact_cont {
+  background: url("../../images/rock.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Style for transparent input field with white border and shadow */
+.input-transparent {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white; /* Ensure text color is white */
+  box-shadow: none;
+  caret-color: white; /* Set the cursor color */
+  resize: none; /* Prevent resizing */
+  box-sizing: border-box;
+}
+
+/* Style for placeholder text */
+.input-transparent::placeholder {
+  color: #68e0cf !important;
+  font-family: "Caveat", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* Ensure the input field remains transparent and has no box shadow on focus */
+.input-transparent:focus {
+  background-color: transparent;
+  border: 1px solid white;
+  box-shadow: none;
+  outline: none; /* Remove default outline */
+  color: white !important;
+}
+
+.textarea-fixed {
+  width: 100%; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.form-btn {
+  color: white;
+  border: 1px solid #68e0cf;
+  width: 150px;
+}
+
+.form-btn:hover {
+  color: black;
+  background-color: #68e0cf;
+  width: 150px;
+}
+
+.form-btn:hover .submit_logo {
+  fill: black;
+}
+
+.submit_logo {
+  width: 25px;
+  height: 25px;
+}
+.signature {
+  font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.info_div {
+  border: 1px solid #68e0cf;
+  width: 60%;
+  height: 330px;
+}
+
+.start_text {
+  color: #68e0cf;
+  font-family: "Caveat", cursive;
+  font-weight: 200;
+  font-style: normal;
+}
+.text_1 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .info_div {
+    border: 1px solid #68e0cf;
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 426px) {
+  .info_div {
+    border: 1px solid #68e0cf;
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 397px) {
+  .info_div {
+    border: 1px solid #68e0cf;
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1025px) {
+  .info_div {
+    border: 1px solid #68e0cf;
+    width: 100%;
+    height: 330px;
+  }
+}

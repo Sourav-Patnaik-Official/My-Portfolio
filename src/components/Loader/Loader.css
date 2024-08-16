@@ -1,0 +1,82 @@
+/* Loader.css */
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #68e0cf;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.load_cont {
+  height: 100vh;
+  background: url(../../images/stars.jpg);
+  background-size: cover;
+  background-position: center;
+  animation: slideIn 10s linear infinite;
+}
+
+@keyframes slideIn {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+  
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  animation: para 1s infinite alternate;
+}
+
+.load_col {
+  padding-top: 15%;
+}
+
+@keyframes para {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1),
+      0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6);
+  }
+}
+
+.img_load {
+  height: 150px;
+  width: 300px;
+}

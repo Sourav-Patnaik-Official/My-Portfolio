@@ -1,0 +1,97 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure full width and prevent horizontal scroll */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Icon and Button Styling */
+.logo_1 {
+  height: 23px;
+  width: 23px;
+  padding-right: 2px;
+}
+
+.custom-btn:hover {
+  background-color: #3b444b !important;
+  border-color: #3b444b !important;
+}
+.navbar {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));
+}
+/* Change the border color */
+.custom-toggler {
+  border: 2px solid #68e0cf; /* Example border color */
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon.custom-toggler-icon {
+  background-image: url('data:image/svg+xml,%3csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"%3e%3cpath fill="%2368e0cf" d="M4 6h16v2H4zm0 4h16v2H4zm0 4h16v2H4z"/%3e%3c/svg%3e');
+  background-size: 30px 30px;
+  margin: 0%;
+  padding: 0%;
+}
+/* Media Queries */
+
+/* Medium Screens */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .custom-btn {
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  /* Custom background color for the offcanvas menu */
+  .offcanvas {
+    background-color: #68e0cf;
+    height: fit-content !important;
+  }
+  .offcanvas-body {
+    background-color: #68e0cf;
+  }
+}
+
+/* Small Screens */
+@media screen and (min-width: 400px) and (max-width: 426px) {
+  .custom-btn {
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  /* Custom background color for the offcanvas menu */
+  .offcanvas {
+    background-color: #68e0cf;
+    height: fit-content !important;
+  }
+  .offcanvas-body {
+    background-color: #68e0cf;
+  }
+}
+
+/* Extra Small Screens */
+@media screen and (min-width: 320px) and (max-width: 397px) {
+  .custom-btn {
+    border-color: black;
+    background-color: black;
+    color: white;
+    width: 100%;
+  }
+
+  /* Custom background color for the offcanvas menu */
+  .offcanvas {
+    background-color: #68e0cf;
+    height: fit-content !important;
+  }
+  .offcanvas-body {
+    background-color: #68e0cf;
+  }
+}

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.about_cont {
+  background: url("../../images/about_1.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.skill-container {
+  width: 100%;
+}
+.skill-label {
+  font-size: 16px;
+}
+.progress-bar-wrapper {
+  background-color: #e0e0e0; /* Light grey background */
+  border-radius: 5px;
+  overflow: hidden;
+  height: 5px; /* Height of the progress bar */
+}
+.progress-bar {
+  height: 5px;
+  background: linear-gradient(
+    45deg,
+    #68e0cf,
+    #689187,
+    #2bd8c1
+  ); /* Blue color for the progress */
+  width: 99% !important;
+  transition: width 0.5s ease-in-out; /* Smooth transition */
+}
+
+.progress-bar1 {
+  height: 5px;
+  background: linear-gradient(
+    45deg,
+    #68e0cf,
+    #689187,
+    #2bd8c1
+  ); /* Blue color for the progress */
+  width: 80%;
+  transition: width 0.5s ease-in-out; /* Smooth transition */
+}
+
+.progress-bar2 {
+  height: 5px;
+  background: linear-gradient(
+    45deg,
+    #68e0cf,
+    #689187,
+    #2bd8c1
+  ); /* Blue color for the progress */
+  width: 60%;
+  transition: width 0.5s ease-in-out; /* Smooth transition */
+}
+.progress-bar3 {
+  height: 5px;
+  background: linear-gradient(
+    45deg,
+    #68e0cf,
+    #689187,
+    #2bd8c1
+  ); /* Blue color for the progress */
+  width: 50%;
+  transition: width 0.5s ease-in-out; /* Smooth transition */
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}

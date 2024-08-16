@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.service_cont {
+  background: url(../../images/clouds.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.service_card {
+  height: 300px;
+  width: 300px;
+  border: solid 5px;
+  border-image: linear-gradient(45deg, #68e0cf, #a2ded0, #d3f1ed) 1;
+  transition: background-color 0.3s ease;
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.service_logo {
+  fill: #68e0cf;
+  height: 50px;
+  width: 50px;
+}
+
+.service_card:hover {
+  background-color: #3b444b;
+   transform: scale(1.1); 
+}
+
+h1 {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
