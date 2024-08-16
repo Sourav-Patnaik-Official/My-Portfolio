@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
 import logo from "../../images/Nav_logo.png";
-import { AiOutlineHome } from "react-icons/ai";
 import { IoBriefcaseOutline, IoCallOutline } from "react-icons/io5";
 import { GrProjects, GrUserExpert } from "react-icons/gr";
 import { IoIosContact } from "react-icons/io";
 import { TbFileCv } from "react-icons/tb";
+import { CiHome } from "react-icons/ci";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -95,15 +96,11 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <AiOutlineHome className="logo_1" />
+                <CiHome className="logo_1" />
                 HOME
               </button>
             </a>
-            <a
-              className="nav-link active"
-              aria-current="page"
-              href="#About"
-            >
+            <a className="nav-link active" aria-current="page" href="#About">
               <button
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
@@ -148,7 +145,12 @@ function Nav() {
                 CONTACT ME
               </button>
             </a>
-            <a className="nav-link" href="/Sourav_CV_14_8_2024.pdf" target="_blank" rel="noopener noreferrer">
+            <a
+              className="nav-link"
+              href="/Sourav_CV_14_8_2024.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <button
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
