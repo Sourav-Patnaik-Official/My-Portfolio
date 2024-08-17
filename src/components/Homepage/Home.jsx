@@ -50,7 +50,7 @@ function Home() {
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              Hello! I’m a web developer with extensive experience in website
+              Hello! I’m a <span className="highlight_text">Frontend Web developer & Freelancer</span> with extensive experience in website
               design and development. I enjoy discussing unique projects and
               finding innovative solutions to web design challenges.
             </h6>

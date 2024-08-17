@@ -52,14 +52,14 @@ function Experience() {
               <hr className="exp-line pt-0 mt-0" />
 
               <div className="Date_div px-2 mb-1 mt-4">
-                <p className="">August 2023- November 2023</p>
+                <p className="">July 2023 - Jan 2024</p>
               </div>
               <h6 className=" name-1">PySpiders</h6>
               <p className="">Python FullStack Development Course</p>
               <hr className="exp-line pt-0 mt-0" />
 
               <div className="Date_div px-2 mb-1 mt-4">
-                <p className="">August 2023- November 2023</p>
+                <p className="">August 2019 - July 2023</p>
               </div>
               <h6 className=" name-1">Ajay Binay Institute Of Technology </h6>
               <p className="">B.Tech CSE</p>

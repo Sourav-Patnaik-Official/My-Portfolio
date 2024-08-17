@@ -13,6 +13,9 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+.highlight_text{
+  color: #68e0cf;
+}
 
 h6 {
   font-family: "Space Grotesk", sans-serif;
