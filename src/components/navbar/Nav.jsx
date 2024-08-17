@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Nav.css";
 import logo from "../../images/Nav_logo.png";
-import { IoBriefcaseOutline, IoCallOutline } from "react-icons/io5";
-import { GrProjects, GrUserExpert } from "react-icons/gr";
-import { IoIosContact } from "react-icons/io";
-import { TbFileCv } from "react-icons/tb";
-import { CiHome } from "react-icons/ci";
-
+import { CiHome,CiUser, CiSettings ,CiBoxList,CiMemoPad,CiPhone,CiFileOn } from "react-icons/ci";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -105,7 +100,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <IoIosContact className="logo_1" />
+                <CiUser className="logo_1" />
                 ABOUT ME
               </button>
             </a>
@@ -114,7 +109,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <IoBriefcaseOutline className="logo_1" />
+                < CiSettings className="logo_1" />
                 SERVICES
               </button>
             </a>
@@ -123,7 +118,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <GrProjects className="logo_1" />
+                <CiBoxList className="logo_1" />
                 PROJECTS
               </button>
             </a>
@@ -132,7 +127,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <GrUserExpert className="logo_1" />
+                <CiMemoPad className="logo_1" />
                 EXPERIENCES
               </button>
             </a>
@@ -141,7 +136,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <IoCallOutline className="logo_1" />
+                <CiPhone className="logo_1" />
                 CONTACT ME
               </button>
             </a>
@@ -155,7 +150,7 @@ function Nav() {
                 type="button"
                 className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
               >
-                <TbFileCv className="logo_1" />
+                <CiFileOn className="logo_1" />
                 RESUME
               </button>
             </a>

@@ -22,6 +22,14 @@ body {
 .custom-btn:hover {
   background-color: #3b444b !important;
   border-color: #3b444b !important;
+  color: #68e0cf;
+  fill: #68e0cf;
+}
+
+.custom-btn:hover .logo_1 {
+  fill: #68e0cf;
+  color: #68e0cf;
+
 }
 .navbar {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5));

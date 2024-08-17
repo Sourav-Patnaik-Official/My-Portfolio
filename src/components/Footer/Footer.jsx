@@ -54,7 +54,6 @@ const Footer = () => {
             <div className="col  d-flex flex-column justify-content-center align-items-center">
               <hr className="foot-line" />
               <p className="foot_text">
-                {" "}
                 &#169; Copyright 2024-Portfolio by Sourav Patnaik
               </p>
             </div>

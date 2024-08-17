@@ -11,6 +11,18 @@ body {
   overflow-x: hidden;
 }
 
+.custom-btn:hover {
+  background-color: #3b444b !important;
+  border-color: #3b444b !important;
+  color: #68e0cf;
+  fill: #68e0cf;
+}
+
+.custom-btn:hover .logo_1 {
+  fill: #68e0cf;
+  color: #68e0cf;
+}
+
 @media screen and (min-width: 801px) and (max-width: 1025px) {
   .logo_1 {
     height: 20px !important;

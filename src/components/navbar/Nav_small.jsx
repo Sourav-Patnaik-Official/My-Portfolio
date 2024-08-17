@@ -2,11 +2,7 @@ import React from "react";
 import "./Nav_small.css";
 import logo from "../../images/Nav_logo.png";
 import logo1 from "../../images/Menu_logo.png";
-import { IoBriefcaseOutline, IoCallOutline } from "react-icons/io5";
-import { GrProjects, GrUserExpert } from "react-icons/gr";
-import { IoIosContact } from "react-icons/io";
-import { TbFileCv } from "react-icons/tb";
-import { CiHome } from "react-icons/ci";
+import { CiHome,CiUser, CiSettings ,CiBoxList,CiMemoPad,CiPhone,CiFileOn } from "react-icons/ci";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -91,7 +87,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <IoIosContact className="logo_1" />
+                    <CiUser className="logo_1" />
                     ABOUT ME
                   </button>
                 </a>
@@ -103,7 +99,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <IoBriefcaseOutline className="logo_1" />
+                    <CiSettings className="logo_1" />
                     SERVICES
                   </button>
                 </a>
@@ -115,7 +111,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <GrProjects className="logo_1" />
+                    <CiBoxList className="logo_1" />
                     PROJECTS
                   </button>
                 </a>
@@ -127,7 +123,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <GrUserExpert className="logo_1" />
+                    <CiMemoPad className="logo_1" />
                     EXPERIENCES
                   </button>
                 </a>
@@ -139,7 +135,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <IoCallOutline className="logo_1" />
+                    <CiPhone className="logo_1" />
                     CONTACT ME
                   </button>
                 </a>
@@ -155,7 +151,7 @@ function Nav_small() {
                     className="btn btn-outline-dark d-flex justify-content-center align-items-center custom-btn"
                     data-bs-dismiss="offcanvas"
                   >
-                    <TbFileCv className="logo_1" />
+                    <CiFileOn className="logo_1" />
                     DOWNLOAD RESUME
                   </button>
                 </a>
