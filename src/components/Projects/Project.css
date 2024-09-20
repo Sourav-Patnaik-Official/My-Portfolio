@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   color: white;
+
 }
 
 html,
@@ -18,6 +19,7 @@ body {
     background: url("../../images/project_img.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
+    height: 100%;
   }
 
 
@@ -26,11 +28,53 @@ body {
     width: 100%;
   }
 
+  .card-img-details{
+    height: 200px;
+    width: 30%;
+  }
+
   .card-body{
     background: linear-gradient(45deg, #68e0cf, #a2ded0, #d3f1ed) ;
   }
+  .card-btn {
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .card-btn:hover {
+    color: white;
+    background-color: black;
 
-  .card{
-    height: 380px;
-    width: 300px;
+  }
+  .view-btn {
+    color: white;
+    border: 1px solid #68e0cf;
+ 
+  }
+  
+  .view-btn:hover {
+    color: black ;
+    background-color: #68e0cf ;
+  }
+
+
+  @media screen and (min-width: 601px) and (max-width: 800px) {
+    .card-img-details{
+      width: 50% !important;
+
+    }
+ 
+  }
+
+  
+  @media screen and  (max-width:426px) {
+    .card-img-details{
+      width: 100% !important;
+      
+
+    }
+    .details-text{
+      font-size:small !important;
+    }
+ 
   }

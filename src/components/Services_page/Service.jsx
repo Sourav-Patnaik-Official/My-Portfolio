@@ -3,7 +3,7 @@ import "./Service.css";
 import { FaRegLightbulb } from "react-icons/fa";
 import { CiMobile2 } from "react-icons/ci";
 import { MdAnimation } from "react-icons/md";
-import { RiTeamLine } from "react-icons/ri";
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,7 +26,7 @@ function Service() {
 
         <div className="row">
           <div
-            className="col-lg-3 col-12 d-flex justify-content-center align-items-center pb-lg-0 pb-5"
+            className="col-lg-4 col-12 d-flex justify-content-center align-items-center pb-lg-0 pb-5"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -40,7 +40,7 @@ function Service() {
             </div>
           </div>
           <div
-            className="col-lg-3 col-12 d-flex justify-content-center align-items-center pb-lg-0 pb-5"
+            className="col-lg-4 col-12 d-flex justify-content-center align-items-center pb-lg-0 pb-5"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -54,7 +54,7 @@ function Service() {
             </div>
           </div>
           <div
-            className="col-lg-3 col-12  d-flex justify-content-center align-items-center pb-lg-0 pb-5"
+            className="col-lg-4 col-12  d-flex justify-content-center align-items-center pb-lg-0 pb-5"
             data-aos="fade-down"
             data-aos-duration="2000"
           >
@@ -64,21 +64,6 @@ function Service() {
               <p className="text-center">
                 Create engaging animations using libraries like AOS to enhance
                 visual appeal.
-              </p>
-            </div>
-          </div>
-          <div
-            className="col-lg-3 col-12  d-flex justify-content-center align-items-center pb-lg-0 pb-5"
-            data-aos="fade-down"
-            data-aos-duration="2000"
-          >
-            <div className="service_card rounded d-flex flex-column justify-content-center align-items-center">
-              <RiTeamLine className="service_logo pb-1" />
-              <h3 className="text-center pb-1">Freelancing Team</h3>
-              <p className="text-center">
-                A skilled team offering expert web development solutions, from
-                innovative designs to flawless user experiences, customized to
-                meet your needs.
               </p>
             </div>
           </div>
