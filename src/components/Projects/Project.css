@@ -19,8 +19,15 @@ body {
     background: url("../../images/project_img.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
+
   }
+  .project_cont1 {
+    background: url("../../images/project_img.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+
 
 
   .card-img-top{
@@ -63,6 +70,11 @@ body {
       width: 50% !important;
 
     }
+
+    .project_cont1 {
+      height: 100vh;
+    }
+  
  
   }
 
@@ -75,6 +87,10 @@ body {
     }
     .details-text{
       font-size:small !important;
+    }
+    
+    .project_cont1 {
+      height: 100%;
     }
  
   }

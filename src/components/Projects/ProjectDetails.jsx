@@ -12,7 +12,7 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div className="container-fluid pt-5 pb-5 project_cont d-flex justify-content-center align-items-center flex-column">
+    <div className="container-fluid pt-5 pb-5 project_cont1 d-flex justify-content-center align-items-center flex-column">
       <h1>{title}</h1>
       <img src={image} alt={title} className="card-img-details" />
       <p className="mt-4 text-center px-lg-5 details-text">{description}</p>
