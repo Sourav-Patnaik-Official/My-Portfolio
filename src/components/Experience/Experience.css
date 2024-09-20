@@ -65,7 +65,17 @@ body {
       }
   }
 
-
+  @media screen and (min-width: 801px) and (max-width: 1023px) {
+    .col_1 {
+      /* width: 100%; */
+      padding-left: 0px;
+    }
+    
+    .col_2 {
+        /* width: 100%; */
+        padding-right: 0px;
+      }
+  }
   
   @media screen and (min-width: 400px) and (max-width: 426px) {
     .col_1 {
