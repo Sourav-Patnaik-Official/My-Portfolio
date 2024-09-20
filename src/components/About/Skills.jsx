@@ -84,7 +84,7 @@ function Skills() {
             <div className="col-lg-3  col-12 pb-lg-0 pb-3">
                 <div
                   class="skill-container"
-                  data-aos="fade-down"
+                  data-aos="fade-up"
                   data-aos-duration="2000"
                 >
                   <div class="skill-label d-flex justify-content-between">
@@ -99,7 +99,7 @@ function Skills() {
               <div className="col-lg-3  col-12 pb-lg-0 pb-3">
                 <div
                   class="skill-container"
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                   data-aos-duration="2000"
                 >
                   <div class="skill-label d-flex justify-content-between">
@@ -114,7 +114,7 @@ function Skills() {
               <div className="col-lg-3  col-12 pb-lg-0 pb-3">
                 <div
                   class="skill-container"
-                  data-aos="fade-down"
+                  data-aos="fade-up"
                   data-aos-duration="2000"
                 >
                   <div class="skill-label d-flex justify-content-between">
@@ -129,7 +129,7 @@ function Skills() {
               <div className="col-lg-3  col-12 pb-lg-0 pb-3">
                 <div
                   class="skill-container"
-                  data-aos="fade-up"
+                  data-aos="fade-down"
                   data-aos-duration="2000"
                 >
                   <div class="skill-label d-flex justify-content-between">
