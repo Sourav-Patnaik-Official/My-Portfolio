@@ -42,15 +42,15 @@ function Home() {
               data-aos="fade-left"
               data-aos-duration="2000"
             >
-              | &nbsp;&nbsp; FRONTEND WEB DEVELOPER &nbsp;&nbsp; |<br />& <br />
-              | &nbsp;&nbsp;FREELANCER &nbsp;&nbsp; |
+              | &nbsp;&nbsp; FRONTEND WEB DEVELOPER &nbsp;&nbsp; |
+         
             </h5>
             <h6
               className="container text-center pt-4 ps-5 pe-5"
               data-aos="fade-right"
               data-aos-duration="2000"
             >
-              Hello! I’m a <span className="highlight_text">Frontend Web developer & Freelancer</span> with extensive experience in website
+              Hello! I’m a <span className="highlight_text">Frontend Web developer </span> with extensive experience in website
               design and development. I enjoy discussing unique projects and
               finding innovative solutions to web design challenges.
             </h6>

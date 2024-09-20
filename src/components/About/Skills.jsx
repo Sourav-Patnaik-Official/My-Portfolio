@@ -81,6 +81,21 @@ function Skills() {
         <div className="row pt-lg-4 pt-0 ">
           <div className="col-lg-12">
             <div className="row">
+            <div className="col-lg-3  col-12 pb-lg-0 pb-3">
+                <div
+                  class="skill-container"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <div class="skill-label d-flex justify-content-between">
+                    <h6>Tailwind CSS</h6>
+                    <h6 className="text-end">80%</h6>
+                  </div>
+                  <div class="progress-bar-wrapper">
+                    <div class="progress-bar1"></div>
+                  </div>
+                </div>
+              </div>
               <div className="col-lg-3  col-12 pb-lg-0 pb-3">
                 <div
                   class="skill-container"
