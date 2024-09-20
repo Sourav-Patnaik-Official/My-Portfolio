@@ -10,6 +10,7 @@ import Project from "./components/Projects/Project";
 import Experience from "./components/Experience/Experience";
 import Contact_me from "./components/Contact_me/Contact_me";
 import ProjectDetails from "./components/Projects/ProjectDetails";
+import Nav_small from "./components/navbar/Nav_small";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,8 @@ const MainContent = () => {
     <div>
       {/* Conditionally render Nav and Footer based on ProjectDetails route */}
       {!location.pathname.startsWith("/projects/") && <Nav />}
+      {!location.pathname.startsWith("/projects/") && <Nav_small />}
+
       <Routes>
         <Route path="/" element={<Homepagemain />} />
         <Route path="/About" element={<About_me />} />
